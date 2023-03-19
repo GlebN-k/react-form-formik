@@ -1,10 +1,11 @@
 import "./App.css";
-import Form from "./components/Form";
+import FeedbackForm from "./components/Formik/Formik";
+// import SignupForm from "./components/Formik/Formik";
 
 function App() {
   return (
     <div className="bg-lime-700 w-full h-[100vh] pt-40">
-      <Form />
+      <FeedbackForm />
     </div>
   );
 }
