@@ -1,5 +1,5 @@
 import "./App.css";
-import FeedbackForm from "./components/Formik/Formik";
+import FeedbackForm from "./components/FeedbackForm";
 // import SignupForm from "./components/Formik/Formik";
 
 function App() {

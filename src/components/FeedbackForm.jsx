@@ -1,6 +1,7 @@
 import React from "react";
 import * as Yup from "yup";
 import { useFormik } from "formik";
+import Button from "./Button";
 
 const FeedbackForm = () => {
   const formik = useFormik({
@@ -128,12 +129,7 @@ const FeedbackForm = () => {
       </div>
       
       <div className="basis-full">
-        <button
-          type="submit"
-          className="bg-amber-500 text-white rounded-full px-8 py-3 text-xl hover:bg-amber-600 my-5 m-auto block mt-16"
-        >
-          Submit
-        </button>
+        <Button />
       </div>
     </form>
   );
